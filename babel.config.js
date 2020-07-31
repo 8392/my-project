@@ -7,5 +7,5 @@
  * @LastEditTime: 2019-12-21 15:39:21
  */
 module.exports = {
-  presets: ["@vue/cli-plugin-babel/preset"]
+    presets: ["@vue/cli-plugin-babel/preset"]
 };

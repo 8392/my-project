@@ -25,6 +25,22 @@ export default [
         ]
     },
     {
+        path: "/treeAssembly",
+        redirect: "/treeAssembly",
+        component: Layout,
+        children: [
+            {
+                path: "/treeAssembly",
+                name: "treeAssembly2",
+                meta: {
+                    title: "递归组件",
+                    icon: "el-icon-s-tools"
+                },
+                component: () => import("@/views/base/treeAssembly.vue")
+            }
+        ]
+    },
+    {
         path: "/redirect",
         component: Layout,
         hidden: true,
